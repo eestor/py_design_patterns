@@ -1,5 +1,5 @@
 
-from .models.esx import Esx
+from esx import Esx
 from abs_factory import AbsFactory
 
 class EsxFactory(AbsFactory):
